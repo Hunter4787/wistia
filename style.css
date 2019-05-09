@@ -1,0 +1,143 @@
+li {
+    display: flex;
+   padding-right: 20px;
+  }
+
+  .pink-wistia{
+    background-image: url("images/pink-background.png");
+  }
+.nav-wistia-header{
+   background-image: url('images/pink-background.png');
+   display: flex;
+   justify-content: space-between;
+    height: 50px;
+    font-size: 20px;
+
+  }
+.nav-wistia-header:hover{
+  background-image: url('images/blank-background.png');
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    
+  }
+#logo-top{
+margin-top: 0%;
+}
+
+#nav-list {
+    display: flex;
+    list-style: none;
+    color: whitesmoke;
+}
+
+.header1-buttom{
+  background-color: rgb(175, 160, 160);
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  width: 10em;
+  height: 3em;
+}
+
+.marge{
+  margin-bottom: 101px;
+}
+.mid-button{
+  background-color: transparent;
+}
+.btn-title{
+  padding: 17px 136px;
+  padding-top: 167px;
+}
+.buttom2{
+  background-color: #3EA9F5;
+}
+.buttom1{
+  background-color:white;
+}
+
+#wistia-pub{
+  padding: 60px 0px;
+
+}
+.h1-color{
+  color: white;
+  font-size: 2em;
+}
+.gif-pub{
+  display: flex;
+  justify-content: space-between;
+ }
+
+ .bloc-width{
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: left;
+padding: 1px 76px;
+ }
+.style-par{
+  background-color: #EFEFEF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bloc1{
+background-image: url('images/yellow-bloc1.png');
+}
+.bloc2{
+  background-color: #51C29F;
+}
+.bloc3{
+  background-color: #3EA9F5;
+}
+
+.grey{
+  color: #9CA8B7;
+}
+.footer-font{
+  background-image: url("images/footer-font.png");
+  margin-top: 0;
+}
+.logos-mid{
+  margin-top: 100px;
+  margin-bottom: 30px;
+ display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.link-style{
+  color: green;
+}
+
+svg{
+width: 20%;
+height: 20%;
+margin-left: 20px;
+margin-top: 20px;
+}
+.justify-blocs{
+  padding-left: 40px;
+  justify-content: flex-start;
+}
+
+.partner-desc{
+  color: #9FABB9;
+}
+.imagebloq{
+  display: flex;
+ justify-content: space-evenly;
+}
+
+a.blanc{
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.pub{
+  width:80%;
+    width: 97%;
+    padding-right: 50%;
+}
+}
