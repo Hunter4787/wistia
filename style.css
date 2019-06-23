@@ -2,6 +2,9 @@ li {
     display: flex;
    padding-right: 20px;
   }
+ #nav-list:hover{
+    color: black;
+  }
 
   .pink-wistia{
     background-image: url("images/pink-background.png");
@@ -15,11 +18,7 @@ li {
 
   }
 .nav-wistia-header:hover{
-  background-image: url('images/blank-background.png');
-    display: flex;
-    justify-content: space-between;
-    color: black;
-    
+  background-color: white; 
   }
 #logo-top{
 margin-top: 0%;
@@ -46,8 +45,8 @@ margin-top: 0%;
   background-color: transparent;
 }
 .btn-title{
-  padding: 17px 136px;
-  padding-top: 167px;
+    padding: 0px 90px;
+    padding-top: 126px;
 }
 .buttom2{
   background-color: #3EA9F5;
@@ -57,7 +56,7 @@ margin-top: 0%;
 }
 
 #wistia-pub{
-  padding: 60px 0px;
+  padding: 20px 0px;
 
 }
 .h1-color{
@@ -66,7 +65,6 @@ margin-top: 0%;
 }
 .gif-pub{
   display: flex;
-  justify-content: space-between;
  }
 
  .bloc-width{
@@ -74,13 +72,17 @@ display: flex;
 flex-direction: column;
 align-items: center;
 text-align: left;
-padding: 1px 76px;
+padding: -1px 66px;
  }
 .style-par{
   background-color: #EFEFEF;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 24px;
+    height: 20px;
+    padding: 22px 0px;
+    font-size: 1.5em;
 }
 .bloc1{
 background-image: url('images/yellow-bloc1.png');
@@ -104,11 +106,14 @@ background-image: url('images/yellow-bloc1.png');
   margin-bottom: 30px;
  display: flex;
   justify-content: space-between;
-  padding: 30px;
 }
 
 .link-style{
   color: green;
+}
+
+.unbounce{
+  width: 80px
 }
 
 svg{
@@ -137,7 +142,6 @@ a.blanc{
 
 .pub{
   width:80%;
-    width: 97%;
-    padding-right: 50%;
-}
+  width: 498px;
+  padding-right: 22%;
 }
